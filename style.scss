@@ -10,6 +10,7 @@ $color-black-33: #00000044;
 
 body{
     background-image: url(./img/stonetile1.jpg);
+    background-size: 300px;
 }
 
 nav{
@@ -42,6 +43,8 @@ nav{
 }
 
  @mixin section-box {
+    //  溢出:隱藏 超出此範圍不顯示
+     overflow: hidden;
      display: grid;
      grid-template-columns: repeat(2 1fr);
 
@@ -70,10 +73,11 @@ nav{
  }
  
  #brand{
-     width: 50%;
+     width: 600px;
      margin: 0 auto;
 
      img{
+         width: 80px;
          margin: 20px;
      }
  }
