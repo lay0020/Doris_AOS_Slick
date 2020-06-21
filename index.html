@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doris_Aos-slick</title>
+    <!-- 使用安裝方式  來套用套件-->
+    <!-- CSS 連結-->
+    <link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
 </head>
-<!-- 使用安裝方式  -->
+
 <body>
     
+<nav>
+    <div id="logo"> Doris</div>
+    <a href="#">Home</a>
+    <a href="#">about Doris</a>
+</nav>
+
+<div id="banner">
+    <img src="./img/slick1.jpg" alt="coffee shop" srcset="">
+    <img src="./img/slick2.jpg" alt="coffee shop" srcset="">
+    <img src="./img/slick3.jpg" alt="coffee shop" srcset="">
+</div>
+
+
+    <!-- JS 連結 -->
+    <!-- 順序:先連別人的再連自己的 -->
+    <!-- 先Jquery 再slick 或aos 最後是自己建立的JS -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>
