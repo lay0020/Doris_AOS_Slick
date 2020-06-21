@@ -1,1 +1,1 @@
-$('banner').slick
+$('#banner').slick
